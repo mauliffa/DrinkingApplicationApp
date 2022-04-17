@@ -67,11 +67,11 @@ class HomeFragment : Fragment() {
 
         val savedName: String? = sharedPreferences.getString("name", name)
         val savedGoal: String? = sharedPreferences.getString("goal", goal)
-        editor.putString("name", ", $name")
+        editor.putString("name", name)
         editor.putString("goal", "$goal ml")
         editor.apply()
 
-        binding.tvGreeting.text = getString(R.string.greeting, savedName)
+        binding.tvGreeting.text = getString(R.string.greeting, " $savedName")
         binding.tvGoalValue.text = savedGoal
         binding.btnDrink.setOnClickListener { chooseSize() }
 
