@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="50dp"
+    app:cardElevation="8dp"
+    tools:context=".ui.ChooseSizeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="32dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/choose_cup"
+            android:textSize="22sp"
+            android:fontFamily="@font/righteous_regular"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageButton
+            android:id="@+id/btn_add_100ml"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_add_water_100"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            android:contentDescription="@string/desc_add_100ml_button" />
+
+        <TextView
+            android:id="@+id/tv_add_100ml"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_100_ml"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@id/btn_add_100ml"
+            app:layout_constraintEnd_toEndOf="@id/btn_add_100ml"
+            app:layout_constraintTop_toBottomOf="@id/btn_add_100ml"/>
+
+        <ImageButton
+            android:id="@+id/btn_add_200ml"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_add_water_200"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@id/btn_add_100ml"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            android:contentDescription="@string/desc_add_200ml_button" />
+
+        <TextView
+            android:id="@+id/tv_add_200ml"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_200_ml"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@id/btn_add_200ml"
+            app:layout_constraintEnd_toEndOf="@id/btn_add_200ml"
+            app:layout_constraintTop_toBottomOf="@id/btn_add_200ml"/>
+
+        <ImageButton
+            android:id="@+id/btn_add_300ml"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_add_water_300"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@id/btn_add_200ml"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            android:contentDescription="@string/desc_add_300ml_button" />
+
+        <TextView
+            android:id="@+id/tv_add_300ml"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_300_ml"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@id/btn_add_300ml"
+            app:layout_constraintEnd_toEndOf="@id/btn_add_300ml"
+            app:layout_constraintTop_toBottomOf="@id/btn_add_300ml"/>
+
+        <ImageButton
+            android:id="@+id/btn_add_400ml"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_add_water_400"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@id/btn_add_300ml"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            android:contentDescription="@string/desc_add_400ml_button" />
+
+        <TextView
+            android:id="@+id/tv_add_400ml"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_400_ml"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@id/btn_add_400ml"
+            app:layout_constraintEnd_toEndOf="@id/btn_add_400ml"
+            app:layout_constraintTop_toBottomOf="@id/btn_add_400ml"/>
+
+        <TextView
+            android:id="@+id/tv_add_customize"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/customize"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@id/tv_add_100ml"
+            app:layout_constraintTop_toBottomOf="@id/tv_add_100ml"/>
+
+        <EditText
+            android:id="@+id/et_customize"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/_100_ml"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="@id/tv_add_customize"
+            app:layout_constraintTop_toBottomOf="@id/tv_add_customize"/>
+
+        <Button
+            android:theme="@style/Button"
+            android:id="@+id/btn_add_customize_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/add"
+            app:layout_constraintStart_toEndOf="@id/et_customize"
+            app:layout_constraintTop_toTopOf="@id/et_customize"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

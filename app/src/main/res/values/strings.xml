@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">DrinkingReminder</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+
+    <!-- choose size fragment -->
+    <string name="choose_cup">Choose your cup</string>
+    <string name="_100_ml">100 ml</string>
+    <string name="_200_ml">200 ml</string>
+    <string name="_300_ml">300 ml</string>
+    <string name="_400_ml">400 ml</string>
+    <string name="customize">Customize</string>
+    <string name="add_100">Successfully add 100ml</string>
+    <string name="add_200">Successfully add 200ml</string>
+    <string name="add_300">Successfully add 300ml</string>
+    <string name="add_400">Successfully add 400ml</string>
+    <string name="add_customize">Successfully add the data</string>
+    <string name="add">Add</string>
+    <string name="customize_empty">Please choose your gender</string>
+
+    <!-- item recap -->
+    <string name="time">Time</string>
+    <string name="size">Size</string>
+
+    <!-- settings fragment -->
+    <string name="personal_information">Personal Information</string>
+    <string name="gender">Gender</string>
+    <string name="weight">Weight</string>
+    <string name="username">User</string>
+    <string name="intake_goals">Intake Goals</string>
+    <string name="reminder">Reminder</string>
+    <string name="reminder_schedule">Reminder\nSchedule</string>
+    <string name="reminder_sound">Reminder\nSound</string>
+    <string name="others">Others</string>
+    <string name="change_language">Change\nLanguage</string>
+    <string name="reset">Reset Data</string>
+    <string name="reset_subtitle">Are you sure want to reset all the data?</string>
+    <string name="reset_true">You already reset all the data</string>
+    <string name="reset_false">You do not reset all the data</string>
+    <string name="save">SAVE</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- home fragment -->
+    <string name="greeting">Hello%1$s!</string>
+    <string name="done">Done</string>
+    <string name="goal">Goal</string>
+    <string name="tips">Do not drink water immediately after eating.</string>
+    <string name="today_s_record">Today\'s Record</string>
+    <string name="delete">Delete Data</string>
+    <string name="delete_subtitle">Are you sure want to delete this data below?</string>
+    <string name="delete_true">You already delete the data</string>
+    <string name="delete_false">You do not delete the data</string>
+
+    <!-- history fragment -->
+    <string name="weekly_report">Weekly Report</string>
+    <string name="monthly_report">Monthly Report</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+
+    <!-- user profile fragment -->
+    <string name="username_hint">Type your name here</string>
+    <string name="username_empty">Please type your name first</string>
+
+    <!-- set goal fragment -->
+    <string name="setGoal">Set Your Goal</string>
+    <string name="setGoal_hint">Type your goal here</string>
+    <string name="setGoal_empty">Please set your goal first</string>
+
+    <!-- choose gender fragment -->
+    <string name="woman">Woman</string>
+    <string name="man">Man</string>
+    <string name="prefer_not_to_say">Prefer Not to Say</string>
+    <string name="cancel">Cancel</string>
+    <string name="user_gender">Your gender: %1$s</string>
+    <string name="gender_empty">Please choose your gender</string>
+
+    <!-- description -->
+    <string name="desc_image">this is a picture</string>
+    <string name="desc_icon_image">this is icon picture</string>
+    <string name="desc_add_100ml_button">this is add 100ml button</string>
+    <string name="desc_add_200ml_button">this is add 200ml button</string>
+    <string name="desc_add_300ml_button">this is add 300ml button</string>
+    <string name="desc_add_400ml_button">this is add 400ml button</string>
+    <string name="desc_add_customize_button">this is add customize button</string>
+    <string name="desc_reset_button">this is reset button</string>
+    <string name="desc_change_language_button">this is change language button</string>
+    <string name="desc_reminder_button">this reminder button</string>
+    <string name="desc_reminder_sound_button">this is reminder sound button</string>
+    <string name="desc_goals_button">this is goals button</string>
+    <string name="desc_set_weight_button">this is set weight button</string>
+    <string name="desc_set_gender_button">this is set gender button</string>
+    <string name="desc_back_button">this is back button</string>
+    <string name="desc_information_button">this is information button</string>
+    <string name="desc_drink_button">this is drink button</string>
+
+    <string name="available_soon">This feature will be available soon</string>
+
+</resources>

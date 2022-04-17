@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HistoryFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_weekly"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/weekly_report"
+            android:textSize="26sp"
+            android:fontFamily="@font/righteous_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="1dp"
+            android:layout_height="220dp"
+            android:layout_marginEnd="45dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/shape1" />
+
+        <ImageView
+            android:id="@+id/shape1"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/shape_round_rect_history"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/view"
+            app:layout_constraintTop_toBottomOf="@id/tv_weekly"
+            android:contentDescription="@string/desc_image" />
+
+        <ImageView
+            android:id="@+id/iv_monday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="8dp"
+            android:src="@drawable/ic_water_weekly"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toStartOf="@id/iv_tuesday"
+            app:layout_constraintTop_toTopOf="@id/shape1"
+            android:contentDescription="@string/desc_image"/>
+
+        <TextView
+            android:id="@+id/tv_monday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/monday"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:textColor="?android:attr/windowBackground"
+            android:fontFamily="@font/roboto_condensed_regular"
+            app:layout_constraintStart_toStartOf="@id/iv_monday"
+            app:layout_constraintEnd_toEndOf="@id/iv_monday"
+            app:layout_constraintTop_toBottomOf="@id/iv_monday"
+            android:contentDescription="@string/desc_image" />
+
+        <ImageView
+            android:id="@+id/iv_tuesday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="8dp"
+            android:src="@drawable/ic_water_weekly"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toStartOf="@id/iv_wednesday"
+            app:layout_constraintTop_toTopOf="@id/shape1"
+            android:contentDescription="@string/desc_image"/>
+
+        <TextView
+            android:id="@+id/tv_tuesday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tuesday"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:textColor="?android:attr/windowBackground"
+            android:fontFamily="@font/roboto_condensed_regular"
+            app:layout_constraintStart_toStartOf="@id/iv_tuesday"
+            app:layout_constraintEnd_toEndOf="@id/iv_tuesday"
+            app:layout_constraintTop_toBottomOf="@id/iv_tuesday" />
+
+        <ImageView
+            android:id="@+id/iv_wednesday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="8dp"
+            android:src="@drawable/ic_water_weekly"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toStartOf="@id/iv_thursday"
+            app:layout_constraintTop_toTopOf="@id/shape1"
+            android:contentDescription="@string/desc_image"/>
+
+        <TextView
+            android:id="@+id/tv_wednesday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/wednesday"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:textColor="?android:attr/windowBackground"
+            android:fontFamily="@font/roboto_condensed_regular"
+            app:layout_constraintStart_toStartOf="@id/iv_wednesday"
+            app:layout_constraintEnd_toEndOf="@id/iv_wednesday"
+            app:layout_constraintTop_toBottomOf="@id/iv_wednesday" />
+
+        <ImageView
+            android:id="@+id/iv_thursday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/ic_water_weekly"
+            android:background="@android:color/transparent"
+            app:layout_constraintStart_toStartOf="@id/shape1"
+            app:layout_constraintEnd_toEndOf="@id/shape1"
+            app:layout_constraintTop_toTopOf="@id/shape1"
+            android:contentDescription="@string/desc_image"/>
+
+        <TextView
+            android:id="@+id/tv_thursday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/thursday"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:textColor="?android:attr/windowBackground"
+            android:fontFamily="@font/roboto_condensed_regular"
+            app:layout_constraintStart_toStartOf="@id/iv_thursday"
+            app:layout_constraintEnd_toEndOf="@id/iv_thursday"
+            app:layout_constraintTop_toBottomOf="@id/iv_thursday" />
+
+        <ImageView
+            android:id="@+id/iv_friday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="8dp"
+            android:src="@drawable/ic_water_weekly"
+            android:background="@android:color/transparent"
+            app:layout_constraintStart_toEndOf="@id/iv_thursday"
+            app:layout_constraintTop_toTopOf="@id/shape1"
+            android:contentDescription="@string/desc_image"/>
+
+        <TextView
+            android:id="@+id/tv_friday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/friday"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:textColor="?android:attr/windowBackground"
+            android:fontFamily="@font/roboto_condensed_regular"
+            app:layout_constraintStart_toStartOf="@id/iv_friday"
+            app:layout_constraintEnd_toEndOf="@id/iv_friday"
+            app:layout_constraintTop_toBottomOf="@id/iv_friday" />
+
+        <ImageView
+            android:id="@+id/iv_saturday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="8dp"
+            android:src="@drawable/ic_water_weekly"
+            android:background="@android:color/transparent"
+            app:layout_constraintStart_toEndOf="@id/iv_friday"
+            app:layout_constraintTop_toTopOf="@id/shape1"
+            android:contentDescription="@string/desc_image"/>
+
+        <TextView
+            android:id="@+id/tv_saturday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/saturday"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:textColor="?android:attr/windowBackground"
+            android:fontFamily="@font/roboto_condensed_regular"
+            app:layout_constraintStart_toStartOf="@id/iv_saturday"
+            app:layout_constraintEnd_toEndOf="@id/iv_saturday"
+            app:layout_constraintTop_toBottomOf="@id/iv_saturday" />
+
+        <ImageView
+            android:id="@+id/iv_sunday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="8dp"
+            android:src="@drawable/ic_water_weekly"
+            android:background="@android:color/transparent"
+            app:layout_constraintStart_toEndOf="@id/iv_saturday"
+            app:layout_constraintTop_toTopOf="@id/shape1"
+            android:contentDescription="@string/desc_image"/>
+
+        <TextView
+            android:id="@+id/tv_sunday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/sunday"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:textColor="?android:attr/windowBackground"
+            android:fontFamily="@font/roboto_condensed_regular"
+            app:layout_constraintStart_toStartOf="@id/iv_sunday"
+            app:layout_constraintEnd_toEndOf="@id/iv_sunday"
+            app:layout_constraintTop_toBottomOf="@id/iv_sunday" />
+
+        <TextView
+            android:id="@+id/tv_monthly"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/monthly_report"
+            android:textSize="26sp"
+            android:fontFamily="@font/righteous_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/shape1"/>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/monthly_chart_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_monthly"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

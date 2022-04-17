@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DrinkingReminder</string>
+    <string name="settings">Pengaturan</string>
+    <string name="home">Utama</string>
+    <string name="history">Laporan</string>
+
+    <!-- choose size fragment -->
+    <string name="choose_cup">Pilih ukuran gelasmu</string>
+    <string name="_100_ml">100 ml</string>
+    <string name="_200_ml">200 ml</string>
+    <string name="_300_ml">300 ml</string>
+    <string name="_400_ml">400 ml</string>
+    <string name="customize">Custom</string>
+    <string name="add_100">Berhasil menambahkan 100ml</string>
+    <string name="add_200">Berhasil menambahkan 200ml</string>
+    <string name="add_300">Berhasil menambahkan 300ml</string>
+    <string name="add_400">Berhasil menambahkan 400ml</string>
+    <string name="add_customize">Berhasil menambahkan data</string>
+    <string name="add">Tambahkan</string>
+    <string name="customize_empty">Masukkan ukuran terlebih dahulu</string>
+
+    <!-- item recap -->
+    <string name="time">Waktu</string>
+    <string name="size">Ukuran</string>
+
+    <!-- settings fragment -->
+    <string name="personal_information">Informasi Pribadi</string>
+    <string name="gender">Jenis\nKelamin</string>
+    <string name="weight">Berat\nBadan</string>
+    <string name="username">Nama\nPengguna</string>
+    <string name="intake_goals">Target</string>
+    <string name="reminder">Pengingat</string>
+    <string name="reminder_schedule">Pengingat\nWaktu</string>
+    <string name="reminder_sound">Nada\nDering</string>
+    <string name="others">Lainnya</string>
+    <string name="change_language">Ganti\nBahasa</string>
+    <string name="reset">Hapus\nData</string>
+    <string name="reset_subtitle">Hapus semua data yang telah terekam?</string>
+    <string name="reset_true">Berhasil menghapus semua data</string>
+    <string name="reset_false">Batal menghapus semua data</string>
+    <string name="save">SIMPAN</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+
+    <!-- home fragment -->
+    <string name="greeting">Halo%1$s!</string>
+    <string name="done">---</string>
+    <string name="goal">Target</string>
+    <string name="tips">Jangan langsung minum air putih setelah makan ya!</string>
+    <string name="today_s_record">Data Harian</string>
+    <string name="delete">Hapus Data</string>
+    <string name="delete_subtitle">Hapus data di bawah ini?</string>
+    <string name="delete_true">Berhasil menghapus data</string>
+    <string name="delete_false">Batal menghapus data</string>
+
+    <!-- history fragment -->
+    <string name="weekly_report">Laporan Mingguan</string>
+    <string name="monthly_report">Laporan Bulanan</string>
+    <string name="monday">Sen</string>
+    <string name="tuesday">Sel</string>
+    <string name="wednesday">Rab</string>
+    <string name="thursday">Kam</string>
+    <string name="friday">Jum</string>
+    <string name="saturday">Sab</string>
+    <string name="sunday">Min</string>
+
+    <!-- user profile fragment -->
+    <string name="username_hint">Ketik namamu disini</string>
+    <string name="username_empty">Isi namamu terlebih dahulu</string>
+
+    <!-- set goal fragment -->
+    <string name="setGoal">Berapa ml air yang ingin kamu minum dalam sehari?</string>
+    <string name="setGoal_hint">Ketik targetmu disini</string>
+    <string name="setGoal_empty">Isi targetmu terlebih dahulu</string>
+
+    <!-- choose gender fragment -->
+    <string name="woman">Perempuan</string>
+    <string name="man">Laki - Laki</string>
+    <string name="prefer_not_to_say">Tidak Menjawab</string>
+    <string name="cancel">Batal</string>
+    <string name="user_gender">Jenis kelamin pengguna: %1$s</string>
+    <string name="gender_empty">Pilih salah satu jawaban terlebih dahulu</string>
+
+    <!-- description -->
+    <string name="desc_image">this is a picture</string>
+    <string name="desc_icon_image">this is icon picture</string>
+    <string name="desc_add_100ml_button">this is add 100ml button</string>
+    <string name="desc_add_200ml_button">this is add 200ml button</string>
+    <string name="desc_add_300ml_button">this is add 300ml button</string>
+    <string name="desc_add_400ml_button">this is add 400ml button</string>
+    <string name="desc_add_customize_button">this is add customize button</string>
+    <string name="desc_reset_button">this is reset button</string>
+    <string name="desc_change_language_button">this is change language button</string>
+    <string name="desc_reminder_button">this reminder button</string>
+    <string name="desc_reminder_sound_button">this is reminder sound button</string>
+    <string name="desc_goals_button">this is goals button</string>
+    <string name="desc_set_weight_button">this is set weight button</string>
+    <string name="desc_set_gender_button">this is set gender button</string>
+    <string name="desc_back_button">this is back button</string>
+    <string name="desc_information_button">this is information button</string>
+    <string name="desc_drink_button">this is drink button</string>
+
+    <string name="available_soon">Fitur ini akan segera tersedia</string>
+</resources>
